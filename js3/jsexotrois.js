@@ -12,7 +12,7 @@ btnAdd.addEventListener("click", () => {
 });
 
 btnDel.addEventListener("click", () => {
-  if (myList.children.length < 1) {
+  if (myList.children.length != 0) {
     console.log("no child to remove");
   }
   myList.removeChild(myList.lastChild);
