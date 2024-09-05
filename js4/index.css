@@ -16,3 +16,8 @@ th {
   text-align: left;
   padding: 0.2rem;
 }
+
+p {
+  background-color: red;
+  height: 5px;
+}
